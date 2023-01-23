@@ -1,0 +1,165 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 1.25rem;
+  margin-top: 1.875rem;
+  width: 100%;
+}
+
+.container main {
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  line-height: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--text-title);
+}
+
+.login img {
+  width: 26px;
+  height: 26px;
+}
+
+.loginDescription {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--text-base);
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  margin-top: 1.875rem;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.containerInput label {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.contentInput {
+  position: relative;
+  width: 100%;
+}
+
+.containerInput input {
+  padding: 10px 40px;
+  background: transparent;
+  border: 1px solid var(--text-base);
+  border-radius: 4px;
+  color: var(--text-base);
+  width: 100%;
+}
+
+.containerInput img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.containerInput input:focus {
+  outline: 2px solid var(--primary-color);
+  border-color: transparent;
+}
+
+.containerCheckbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerCheckbox div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.containerCheckbox label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.containerCheckbox label>div {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid var(--text-base);
+  position: relative;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.imgCheck {
+  display: none;
+}
+
+.active label>div {
+  background-color: var(--primary-color);
+}
+
+.active .imgCheck {
+  display: block;
+  padding: 1px;
+  width: 100%;
+}
+
+.containerCheckbox a {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.form button {
+  height: 3.125rem;
+  font-size: 1.1rem;
+  color: var(--color-btn);
+  font-weight: 600;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 1.5%;
+  line-height: 27px;
+}
+
+.register {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--primary-color);
+  width: 100%;
+  margin-top: 0.9rem;
+  text-align: center;
+}
+
+.register span {
+  font-weight: 600;
+}

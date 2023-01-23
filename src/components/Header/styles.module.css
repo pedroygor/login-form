@@ -1,0 +1,11 @@
+.header {
+  margin-top: 2.5rem;
+  margin-left: 1.25rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image {
+  width: 115px;
+  height: 26px;
+}
