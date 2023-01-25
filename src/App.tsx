@@ -1,13 +1,9 @@
-import { FormLogin } from "./components/FormLogin"
-import { Header } from "./components/Header"
+import { ContainerPage } from "./components/ContainerPage"
 
 function App() {
 
   return (
-    <>
-      <Header />
-      <FormLogin />
-    </>
+   <ContainerPage />
   )
 }
 

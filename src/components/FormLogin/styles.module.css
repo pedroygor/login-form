@@ -1,11 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 0 1.25rem;
-  margin-top: 1.875rem;
   width: 100%;
+  max-width: 400px;
+  margin-top: 1.875rem;
 }
 
 .container main {
@@ -148,6 +149,8 @@
   border-radius: 4px;
   letter-spacing: 1.5%;
   line-height: 27px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .register {
@@ -162,4 +165,11 @@
 
 .register span {
   font-weight: 600;
+}
+
+
+@media screen and (min-width: 540px) and (max-width: 820px) {
+  .container {
+    margin-top: 0.5rem;
+  }
 }
